@@ -1,0 +1,43 @@
+.header{
+  width: 100%;
+  margin-bottom: 50px;
+}
+.wrapper-content-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.header-left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.header-left a{
+  font-weight: 600;
+  padding-bottom: 2px;
+  border-bottom: 3px solid #ddd;
+  color: var(--secondary-color);
+}
+.header-right{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+
+}
+.avatar{
+  display: block;
+  width: 45px !important;
+  height: 45px;
+}
+.header-right > p{
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+.header-right > p > span{
+  color: var(--tertiary-color);
+  padding-left: 10px;
+
+}

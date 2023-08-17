@@ -1,0 +1,93 @@
+.profile{
+  padding-left: 22%;
+  background-color: var(--primary-color);
+  height: 100vh;
+}
+.title-h2-profile{
+  width: 100%;
+  color: white;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--secondary-color);
+}
+.content{
+  display: flex;
+  gap: 20px;
+}
+.content-left{
+  width: 70%;
+}
+.content-right{
+  width: 30%;
+}
+.user-infor{
+  margin-bottom: 20px;
+}
+.title-h3-profile{
+  color: white;
+  margin-bottom: 10px;
+}
+.title-text{
+  color: var(--secondary-color);
+}
+.user-infor > div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+.change-input{
+  width: 90%;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 15px;
+  background-color: var(--secondary-color);
+  color: #fefafa;
+}
+.change-input::placeholder{
+  color: black;
+}
+.btn-edit{
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-size: 25px;
+}
+.btn-edit:hover{
+  color: #606060;
+}
+
+.content-photo{
+  height: auto;
+}
+.avatar-profile{
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.avatar-profile > img{
+  border-radius: 50%;
+}
+.btn-upload{
+  display: flex;
+  margin: 0 auto;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-top: 20px;
+}
+.btn-upload:hover{
+  background-color: #606060;
+}
+.icon-upload{
+  font-size: 25px;
+  color: blue;
+}
+.btn-delete{
+  color: red;
+}
+.btn-delete:hover{
+  background-color: #606060;
+}

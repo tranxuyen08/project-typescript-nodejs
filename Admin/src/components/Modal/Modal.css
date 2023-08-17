@@ -1,0 +1,48 @@
+.sect-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: grid;
+  place-items: center;
+}
+
+.wrapper-modal {
+  min-height: 80vh;
+  padding: 15px;
+}
+
+.btn-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: red;
+  background-color: #e1e1e1;
+}
+.btn-close:hover{
+  color: rgb(162, 11, 11);
+}
+.close{
+  font-size: 20px;
+}
+.wrapper-form{
+  position: relative;
+  padding: 15px;
+  background-color: #e1e1e1;
+}
+.bkg-form{
+  width: 80%;
+  margin: 0 auto;
+}
+.btn-edit{
+  margin: 0 auto;
+  background-color: yellow;
+  color: rgb(181, 12, 12);
+}
+.center {
+  display: flex;
+  justify-content: center;
+}

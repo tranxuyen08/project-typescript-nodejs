@@ -1,0 +1,42 @@
+.confirmation-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.confirmation-modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+}
+.confirmation-modal p {
+  margin-bottom: 20px;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.confirmation-modal-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.confirmation-modal-actions button {
+  margin: 0 10px;
+}
+.btn-yes{
+  background-color: #e81717;
+}
+.btn-yes:hover{
+  background-color: #bd1010;
+}
+.btn-no:hover{
+  background-color: #9b9b05;
+}

@@ -1,0 +1,137 @@
+.sect-login {
+  position: relative;
+  background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHA1bmhmcGNidTl2ODR4eDF0djJhMWk3dDY3MGN3MW03M3l6NjIwcyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3oxHQpJKupQXsmU1JS/source.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper-login {
+  position: absolute;
+  width: 50%;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bkg-img {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(25, 25, 25, 0.8);
+}
+
+.title-login {
+  font-weight: 700;
+  color: #5278F6;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-with {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+.login-with button {
+  padding: 12px 13px 10px 13px;
+  border-radius: 50%;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.login-with button:last-child {
+  color: #5278F6;
+}
+
+.login-with button:hover {
+  background-color: lightgray;
+}
+
+.form {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  gap: 30px;
+}
+
+.form>input {
+  padding: 20px 15px;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  background-color: var(--secondary-color);
+  color: #fbf3f3;
+
+}
+
+.form>input:hover {
+  border: 1px solid #5278F6;
+}
+
+.form>input::placeholder {
+  color: white;
+}
+
+.btn-signin {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #5278F6 !important;
+}
+
+.btn-signin:hover {
+  background-color: #2956e9 !important;
+}
+.text-sign-up{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+}
+.text-sign-up > a{
+  color: #2956e9;
+}
+/* register */
+.user-name{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.first-name{
+  width: 47% !important;
+  padding: 20px 15px;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  background-color: var(--secondary-color);
+  color: #fbf3f3;
+}
+.last-name{
+  width: 47% !important;
+  padding: 20px 15px;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  background-color: var(--secondary-color);
+  color: #fbf3f3;
+}
+.user-name>input:hover {
+  border: 1px solid #5278F6;
+}
+
+.user-name>input::placeholder {
+  color: white;
+}
+
+.error{
+  color: red;
+}

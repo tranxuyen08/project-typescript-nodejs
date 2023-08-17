@@ -1,0 +1,48 @@
+.find-film {
+  background-color: var(--primary-color);
+  /* height: 100vh; */
+  padding-bottom: 20px;
+}
+
+.list-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.item-card {
+  position: relative;
+  background-color: var(--quaternary-color);
+  border-radius: 7px;
+  box-shadow: 0 0 10px rgba(88, 88, 88, 0.3);
+  transition: transform 0.3s ease;
+
+}
+.card-link>p {
+text-align: center;
+  padding: 5px;
+  color: #333;
+  font-weight: 600;
+}
+.item-card:hover {
+  transform: scale(1.05);
+}
+.ratting-card{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #5C80F7;
+}
+
+.ratting.ratting-card {
+  display: flex;
+  align-items: center;
+}
+
+.icon-ratting {
+  margin-top: 2px;
+  color: yellowgreen;
+}
+.card-img {
+  height: 210px;
+}

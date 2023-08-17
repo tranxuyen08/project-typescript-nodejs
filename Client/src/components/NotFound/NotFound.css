@@ -1,0 +1,7 @@
+.wrapper-img-notfound{
+  width: 100vw;
+  height: 100vh;
+}
+.wrapper-img-notfound > img{
+  object-fit: cover;
+}
