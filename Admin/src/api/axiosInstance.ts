@@ -18,6 +18,7 @@ const BaseAxios: AxiosInstance = axios.create({
 
 
 axios.defaults.withCredentials = true;
+BaseAxios.defaults.withCredentials = true;
 const refreshToken = async () => {
   try {
     const res = await axios.post(
